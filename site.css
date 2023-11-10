@@ -164,12 +164,16 @@ h1 > a:hover {
   }
 
   #pagecontainer {
-    display: block;
+    display: block !important;
   }
 
   nav ul {
     display: flex;
     justify-content: space-around;
+  }
+
+  footer nav ul {
+    flex-direction: column;
   }
 
 
