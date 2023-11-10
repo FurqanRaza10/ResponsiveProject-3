@@ -200,6 +200,12 @@ h1 > a:hover {
     display: block;
     padding-left: 40%;
   }
+
+  nav ul {
+    flex-direction: column;
+  }
+  
+  
 }
 
 #pagecontainer {
