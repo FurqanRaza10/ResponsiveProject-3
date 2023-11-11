@@ -294,5 +294,8 @@ footer > div {
     grid-template-columns: 1fr 1fr;
   }
   
+  #flex-container{
+    flex-direction: column;
+  }
   
 }
