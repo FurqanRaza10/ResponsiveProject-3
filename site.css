@@ -210,6 +210,12 @@ footer > div {
   gap: 1.5em;
 }
 
+.box_1,.box_2,.box_3{
+  background-color: #0bbc0b;
+  color: white;
+  padding: 20px;
+}
+
 
 
 
