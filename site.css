@@ -131,21 +131,20 @@ h1 > a:hover {
   font-size: 3em;
   color: rgb(35, 102, 12);
 }
-.item25 {
+/* .item25 {
   
   width: 25%;
   text-align: center;
-}
-#muticol {
-  
+} */
+#multicol {
+  display: flex;
+  justify-content: space-between;
 }
 .mobile {
   display: none;
 }
 @media all and (max-width: 1024px) {
-  nav {
-    
-  }
+ 
   nav > ul > li {
     display: inline-block;
   }
@@ -199,13 +198,16 @@ h1 > a:hover {
     
     display: block;
     padding-left: 40%;
+    width: 100%;
   }
 
   nav ul {
     flex-direction: column;
+  } 
+  #multicol{
+    flex-wrap: wrap;
   }
-  
-  
+
 }
 
 #pagecontainer {
@@ -244,16 +246,13 @@ footer > div {
   flex-grow: 1;
   padding-left: 10%;
   box-sizing: border-box;
+ 
 }
 
 #copyright {
   width: 100%;
 }
 
-#muticol {
-  display: flex;
-  justify-content: space-between;
-}
 
 .item25 {
   width: 23%;
@@ -263,7 +262,7 @@ footer > div {
 
 #categories {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
