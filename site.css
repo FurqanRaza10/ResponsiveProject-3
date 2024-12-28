@@ -124,7 +124,7 @@ h1 > a:hover {
 .item33 {
   
   display: inline-block;
-  width: 33%;
+  /* width: 33%; */
 }
 .icon {
   display: block;
@@ -250,7 +250,12 @@ footer > div {
   }
 
   footer nav ul {
-    flex-direction: column;
+    flex-direction: row;
+  }
+
+  footer nav ul:nth-child(3)
+  {
+    padding-left: 0;
   }
 
 
