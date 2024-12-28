@@ -14,7 +14,7 @@ h2,
 h3 {
   font-family: var(--rootFonts), Gabriola, "Source Sans Pro", Exo, Ubuntu;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 h1 {
   font-size: 3em;
